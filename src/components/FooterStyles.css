@@ -1,3 +1,5 @@
+// older code 
+
 .footer {
     width: 100%;
     padding: 6rem 0;
@@ -19,7 +21,29 @@
     color: hotpink;
     padding: 0rem 0;
 }
+ //
 
+// new code 
+
+.footer {
+    width: center;
+    text-align: center;
+    padding: 2rem;
+    background: rgba(0,0,0,.8);
+}
+
+.footer h4 {
+    font-size: 2rem;
+    color: hotpink;
+    padding: 0rem 0;
+}
+
+.footer text {
+    font-size: 2rem;
+    color: hotpink;
+    padding: 0rem 0;
+}
+//
 
 
 
