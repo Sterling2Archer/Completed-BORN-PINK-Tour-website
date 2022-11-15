@@ -8,8 +8,8 @@ const Footer = () => {
           <div className='center'>
           <div className='SNS'>
               <h4><center>FOLLOW @BLACKPINK ON </center></h4>
-              <FaTwitter size={70} style={{ color: '#FFB6C1', marginLeft: '7rem' }} /> 
-              <FaYoutube size={70} style={{ color: '#FFB6C1', marginRight: '0rem' }} />
+              <a href='https://twitter.com/blackpink'><FaTwitter size={70} style={{ color: '#FFB6C1', marginLeft: '7rem' }} /> </a>
+              <a href='https://www.youtube.com/@BLACKPINK'><FaYoutube size={70} style={{ color: '#FFB6C1', marginRight: '0rem' }} /> </a>
           </div>
           </div>
     </div>    
