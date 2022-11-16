@@ -9,7 +9,7 @@ const TourDates = () => {
     return (
         <div>
             <Navbar />
-            <Stage heading='BORN PINK WORLD TOUR 2022-2023' text='NEXT STOP: DALLAS, TEXAS OCTOBER 25TH, 2022' />
+            <Stage heading='BORN PINK WORLD TOUR 2022-2023' text='NEXT STOP: LOS ANGELES, CALIFORNIA NOVEMBER 19th, 2022' />
             <TourDatesCards />
             <Footer />
         </div>
