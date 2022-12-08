@@ -1,5 +1,5 @@
-import React from 'react'
-import './MembersStyles.css'
+import React from 'react';
+import './MembersStyles.css';
 
 const Members = () => {
   return (
@@ -62,4 +62,4 @@ const Members = () => {
   )
 }
 
-export default Members
+export default Members;
