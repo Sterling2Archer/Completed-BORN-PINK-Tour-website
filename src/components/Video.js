@@ -1,7 +1,7 @@
-import React from 'react'
-import  './VideoStyles.css'
-import {Link} from 'react-router-dom'
-import tourIntro from '../assets/IYAIntro.mp4'
+import React from 'react';
+import  './VideoStyles.css';
+import {Link} from 'react-router-dom';
+import tourIntro from '../assets/IYAIntro.mp4';
 
 const Video = () => {
   return (
@@ -21,4 +21,4 @@ const Video = () => {
   )
 }
 
-export default Video
+export default Video;
