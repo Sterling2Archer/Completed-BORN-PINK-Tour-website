@@ -1,8 +1,8 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import PinkVenom from '../components/PinkVenom'
-import MembersCards from '../components/Members'
+import React from 'react';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import PinkVenom from '../components/PinkVenom';
+import MembersCards from '../components/Members';
 
 
 const Members = () => {
@@ -16,4 +16,4 @@ const Members = () => {
     )
 }
 
-export default Members
+export default Members;
