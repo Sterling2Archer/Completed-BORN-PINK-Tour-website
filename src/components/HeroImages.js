@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import './HeroImagesStyles.css'
+import './HeroImagesStyles.css';
 
 class HeroImages extends Component {
     render() {
@@ -14,4 +14,4 @@ class HeroImages extends Component {
     }
 }
 
-export default HeroImages
+export default HeroImages;
