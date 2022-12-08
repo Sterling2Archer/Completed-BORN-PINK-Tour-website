@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import './StageStyles.css'
+import './StageStyles.css';
 
 class Stage extends Component {
     render() {
@@ -14,4 +14,4 @@ class Stage extends Component {
     }
 }
 
-export default Stage
+export default Stage;
