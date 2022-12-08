@@ -1,7 +1,7 @@
-import React, {useState} from 'react'
-import './NavbarStyles.css'
-import {Link} from 'react-router-dom'
-import {FaBars, FaTimes} from 'react-icons/fa'
+import React, {useState} from 'react';
+import './NavbarStyles.css';
+import {Link} from 'react-router-dom';
+import {FaBars, FaTimes} from 'react-icons/fa';
 
 
 const Navbar = () => {
@@ -45,4 +45,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;
