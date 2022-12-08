@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import './SongsStyles.css'
+import './SongsStyles.css';
 
 class Songs extends Component {
     render() {
@@ -14,4 +14,4 @@ class Songs extends Component {
     }
 }
 
-export default Songs
+export default Songs;
