@@ -1,6 +1,6 @@
-import React from 'react'
-import './TourDatesStyles.css'
-import Dates1 from '../assets/Blackpink-Tour-2022.jpg.webp'
+import React from 'react';
+import './TourDatesStyles.css';
+import Dates1 from '../assets/Blackpink-Tour-2022.jpg.webp';
 
 const TourDates = () => {
   return (
@@ -12,4 +12,4 @@ const TourDates = () => {
   )
 }
 
-export default TourDates
+export default TourDates;
