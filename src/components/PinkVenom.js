@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import './PinkVenomStyles.css'
+import './PinkVenomStyles.css';
 
 class PinkVenom extends Component {
     render() {
@@ -14,4 +14,4 @@ class PinkVenom extends Component {
     }
 }
 
-export default PinkVenom
+export default PinkVenom;
