@@ -1,8 +1,8 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import Songs from '../components/Songs'
-import MusicCards from '../components/Music'
+import React from 'react';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import Songs from '../components/Songs';
+import MusicCards from '../components/Music';
 
 const Music = () => {
     return (
@@ -15,4 +15,4 @@ const Music = () => {
     )
 }
 
-export default Music
+export default Music;
