@@ -1,8 +1,8 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import Stage from '../components/Stage'
-import TourDatesCards from '../components/TourDates'
+import React from 'react';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import Stage from '../components/Stage';
+import TourDatesCards from '../components/TourDates';
 
 
 const TourDates = () => {
@@ -16,4 +16,4 @@ const TourDates = () => {
     )
 }
 
-export default TourDates
+export default TourDates;
