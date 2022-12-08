@@ -1,6 +1,6 @@
-import React from 'react'
-import './FooterStyles.css'
-import {FaTwitter, FaYoutube} from 'react-icons/fa'
+import React from 'react';
+import './FooterStyles.css';
+import {FaTwitter, FaYoutube} from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -16,4 +16,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer;
