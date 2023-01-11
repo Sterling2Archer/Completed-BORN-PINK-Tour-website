@@ -11,7 +11,7 @@ class PinkVenom extends Component {
                 </div>
             </div>
         )
-    }
+    };
 }
 
 export default PinkVenom;
