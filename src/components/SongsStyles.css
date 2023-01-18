@@ -3,11 +3,12 @@
     height: 138vh;
     width: 100%;
     position: relative;
+    cursor: pointer;
 }
 
 .songs-pink:before {
     content:'';
-    background: url('../assets/PVdance.mp4') no-repeat center center/cover;
+    background: url('../assets/shutdowndp.mp4') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -37,4 +38,4 @@
     .songs-pink h1 {
         font-size: 2rem;
     }
-}
+};
