@@ -1,5 +1,17 @@
-.tourdates1 {
-    padding: center;
-    background: fixed;
-    background-color: #000;
+.worldtour .img {
+    max-width: 60%;
+}
+
+.worldtour .img-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+.worldtour .top {
+    padding-top: 0%;
+    grid-column: 1 / span 15;
+    grid-row: 1;
+    z-index: 6;
 }
