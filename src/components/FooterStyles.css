@@ -1,49 +1,22 @@
-// older code 
-
-.footer {
-    width: 100%;
-    padding: 6rem 0;
-    background: rgba(0,0,0,.8);
-}
-
-.footer .center {
-    height: 100%;
-    max-width: 200%;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    padding: 0rem;
-}
-
-
-.footer h4 {
-    font-size: 2rem;
-    color: hotpink;
-    padding: 0rem 0;
-}
- //
-
-// new code 
-
 .footer {
     width: center;
     text-align: center;
     padding: 2rem;
     background: rgba(0,0,0,.8);
+    cursor: pointer;
 }
 
 .footer h4 {
-    font-size: 2rem;
+    font-size: 1rem;
     color: hotpink;
-    padding: 0rem 0;
+    padding: 1rem;
 }
 
 .footer text {
     font-size: 2rem;
     color: hotpink;
-    padding: 0rem 0;
+    padding: 0rem;
 }
-//
 
 
 
