@@ -3,6 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  cursor: pointer;
 }
 
 h1, p, a {
@@ -11,13 +12,14 @@ h1, p, a {
 
 body {
   margin: 0;
+  cursor: pointer;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background: hotpink;
+  background: rgb(0, 0, 0);
 }
  ul {
   list-style-type: none;
@@ -50,3 +52,4 @@ code {
   background: rgb(255, 75, 189);
   border: 5px solid rgb(255, 75, 189);
 }
+
