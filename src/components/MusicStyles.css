@@ -1,8 +1,9 @@
-/* NEW CODE - MAIN VIDEO SECTION STYLING */
+/* MAIN VIDEO SECTION STYLING */
 .music-pink {
     width: 100%;
     background-color: #000;
     display: flex;
+    cursor: pointer;
 }
 
 .music-pink h3 {
@@ -21,7 +22,23 @@
     background-color: #ffa3dc;
     border-color: #ffa3dc;
     width: 99%;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    
 }
+  
+.music-pink .btn-light {
+    background: rgb(252, 150, 201);
+  }
+  
+.music-pink .btn:hover {
+    background: rgb(0, 0, 0);
+    border: 5px solid rgb(0, 0, 0);
+    color: #ffa3dc;
+  }
+  
+ 
 
 
 
@@ -29,6 +46,7 @@
     border: 1px solid rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     text-align: center;
+    cursor: pointer;
     
 }
 
@@ -114,302 +132,4 @@
     }
 }
 /* END OF LISA SOLO VIDEO SECTION */
-
-
-
-
-
-
-
-
-/* OLD CODE 
-
-.music-pink {
-    width: 100%;
-    padding: center;
-    background-color: #000;
-    display: flex; flex-wrap: wrap;
-}
-
-.music-pink p {
-    color: #eee;
-    padding: 2rem 0rem;
-    font-size: 2rem;
-}
-
-
-.JiSolo {
-    margin: auto;
-    color: #eee;
-    
-}
-
-.JiSolo .jisoo {
-    border: 3px solid rgb(0, 0, 0);
-    color: #eee;
-}
-
-.jisoo {
-    text-align: center;
-    padding: 2rem;
-}
-
-.jisoo:hover {
-    background-color: #ffa3dc;
-}
-
-.JiSolo h3 {
-    font-size: 2rem; 
-    text-align: center;
-    font-stretch: expanded;
-    height: 2rem;
-    padding: 1rem;
-}
-
-.JiSolo .bar {
-    border-bottom: 1px solid #eee;
-    width: 30%;
-    margin: 1rem auto;
-    display: block;
-}
-
-.jisoo .YG {
-    font-size: 4rem;
-    font-weight: 600;
-    padding: 1rem;
-}
-
-.JiSolo .btn {
-    display: block;
-    width: 17%;
-    margin: 0rem 60rem auto;
-}
-
-@media screen and (max-width: 980px) {
-    .JiSolo {
-        max-width: 100%;
-        margin: auto;
-        grid-template-columns: 1fr;
-    }
-}
-
-.JenSolo {
-    margin: auto;
-    color: rgb(255, 255, 255);
-    
-}
-
-.JenSolo .jennie {
-    border: 3px solid rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-}
-
-.jennie {
-    text-align: center;
-    padding: 2rem;
-}
-
-.jennie:hover {
-    background-color: #ffa3dc;
-}
-
-.JenSolo h3 {
-    font-size: 2rem; 
-    text-align: center;
-    font-stretch: expanded;
-    height: 2rem;
-    padding: 1rem;
-}
-
-.JenSolo .bar {
-    border-bottom: 1px solid #eee;
-    width: 30%;
-    margin: 1rem auto;
-    display: block;
-}
-
-.jennie .YG {
-    font-size: 4rem;
-    font-weight: 600;
-    padding: 1rem;
-}
-
-.JenSolo .btn {
-    display: block;
-    width: 47%;
-    margin: 0rem 13rem auto;
-}
-
-@media screen and (max-width: 980px) {
-    .JenSolo {
-        max-width: 100%;
-        margin: auto;
-        grid-template-columns: 1fr;
-    }
-}
-
-.groupMusic {
-    margin: auto;
-    color: #eee;
-}
-
-.groupMusic .shutdown {
-    border: 3px solid rgb(0, 0, 0);
-    color: #eee;
-}
-
-.shutdown {
-    text-align: center;
-    padding: 2rem;
-}
-
-.shutdown:hover {
-    background-color: #ffa3dc;
-    
-}
-
-.groupMusic h3 {
-    font-size: 2rem; 
-    text-align: center;
-    font-stretch: expanded;
-    height: 2rem;
-    padding: 1rem;
-}
-
-.groupMusic .bar {
-    border-bottom: 1px solid #eee;
-    width: 30%;
-    margin: 1rem auto;
-    display: block;
-}
-
-.shutdown .YG {
-    font-size: 4rem;
-    font-weight: 600;
-    padding: 1rem;
-}
-
-.groupMusic .btn {
-    display: block;
-    width: 32%;
-    margin: 0rem 25rem auto;
-}
-
-@media screen and (max-width: 980px) {
-    .groupMusic {
-        max-width: 100%;
-        margin: auto;
-        grid-template-columns: 1fr;
-    }
-}
-
-.RoseSolo {
-    margin: auto;
-    color: #eee;
-}
-
-.RoseSolo .rose {
-    border: 3px solid rgb(0, 0, 0);
-    color: #eee;
-}
-
-.rose {
-    text-align: center;
-    padding: 1rem;
-}
-
-.rose:hover {
-    background-color: #ffa3dc;
-}
-
-.RoseSolo h3 {
-    font-size: 2rem; 
-    text-align: center;
-    font-stretch: expanded;
-    height: 2rem;
-    padding: 1rem;
-}
-
-.RoseSolo .bar {
-    border-bottom: 1px solid #eee;
-    width: 26%;
-    margin: 1rem auto;
-    display: block;
-}
-
-.rose .YG {
-    font-size: 4rem;
-    font-weight: 600;
-    padding: 1rem;
-}
-
-.RoseSolo .btn {
-    display: block;
-    width: 37%;
-    margin: 0rem 20rem auto;
-}
-
-
-@media screen and (max-width: 980px) {
-    .RoseSolo {
-        max-width: 100%;
-        margin: auto;
-        grid-template-columns: 1fr;
-    }
-}
-
-.LisaSolo {
-    margin: auto;
-    color: #eee;
-}
-
-.LisaSolo .lisa {
-    border: 3px solid rgb(0, 0, 0);
-    color: #eee;
-}
-
-.lisa {
-    text-align: center;
-    padding: 2rem;
-}
-
-.lisa:hover {
-    background-color: #ffa3dc;
-}
-
-.LisaSolo h3 {
-    font-size: 2rem; 
-    text-align: center;
-    font-stretch: expanded;
-    height: 2rem;
-    padding: 1rem;
-}
-
-.LisaSolo .bar {
-    border-bottom: 1px solid #eee;
-    width: 29%;
-    margin: 1rem auto;
-    display: block;
-}
-
-.lisa .YG {
-    font-size: 4rem;
-    font-weight: 600;
-    padding: 1rem;
-}
-
-.LisaSolo .btn {
-    display: block;
-    width: 43%;
-    margin: 0rem 16rem auto;
-}
-
-@media screen and (max-width: 980px) {
-    .LisaSolo {
-        max-width: 100%;
-        margin: auto;
-        grid-template-columns: 1fr;
-    }
-}
-/*
 
