@@ -1,5 +1,4 @@
-/* NEW CODE
-/* MAIN VIDEO SECTION STYLING */
+/* NEW CODE - MAIN VIDEO SECTION STYLING */
 .music-pink {
     width: 100%;
     background-color: #000;
@@ -117,19 +116,14 @@
 /* END OF LISA SOLO VIDEO SECTION */
 
 
-/*
 
 
 
 
 
 
+/* OLD CODE 
 
-/*
-OLD CODE 
-/*
-
-/* MAIN VIDEO SECTION STYLING */
 .music-pink {
     width: 100%;
     padding: center;
@@ -143,9 +137,7 @@ OLD CODE
     font-size: 2rem;
 }
 
-/*INDIVIDUAL VIDEO STYLING SECTIONS WITH JISOO'S SOLO VIDEO SECTION FIRST */
 
-/* JISOO SOLO VIDEO SECTION */
 .JiSolo {
     margin: auto;
     color: #eee;
@@ -200,9 +192,7 @@ OLD CODE
         grid-template-columns: 1fr;
     }
 }
-/* END OF JISOO SOLO VIDEO SECTION */
 
-/* JENNIE SOLO VIDEO SECTION */
 .JenSolo {
     margin: auto;
     color: rgb(255, 255, 255);
@@ -257,8 +247,7 @@ OLD CODE
         grid-template-columns: 1fr;
     }
 }
-/* END OF JENNIE SOLO VIDEO SECTION */
-/* BLACKPINK GROUP VIDEO SECTION */
+
 .groupMusic {
     margin: auto;
     color: #eee;
@@ -313,9 +302,7 @@ OLD CODE
         grid-template-columns: 1fr;
     }
 }
-/* END OF BLACKPINK GROUP VIDEO SECTION */
 
-/* ROSE SOLO VIDEO SECTION */
 .RoseSolo {
     margin: auto;
     color: #eee;
@@ -370,9 +357,7 @@ OLD CODE
         grid-template-columns: 1fr;
     }
 }
-/* END OF ROSE SOLO VIDEO SECTION */
 
-/* LISA SOLO VIDEO SECTION */
 .LisaSolo {
     margin: auto;
     color: #eee;
@@ -426,5 +411,5 @@ OLD CODE
         grid-template-columns: 1fr;
     }
 }
-/* END OF LISA SOLO VIDEO SECTION */
+/*
 
