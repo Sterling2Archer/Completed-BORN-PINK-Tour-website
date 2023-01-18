@@ -1,0 +1,25 @@
+{
+  "short_name": "BLACKPINK App",
+  "name": "BLACKPINK ",
+  "icons": [
+    {
+      "src": "910bf8bfcbcb9aaaca6ff7aefb5fea7b 2.jpg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "910bf8bfcbcb9aaaca6ff7aefb5fea7b 2.jpg",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "910bf8bfcbcb9aaaca6ff7aefb5fea7b 2.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
