@@ -1,3 +1,72 @@
+/* NEW CODE */
+import React from 'react';
+import './MusicStyles.css';
+import ShutDown from '../assets/shutdown.mp4';
+import Jisoo from '../assets/jisoosolo.mp4';
+import Jennie from '../assets/jenniesolo.mp4';
+import Rose from '../assets/rosegone.mp4';
+import Lisa from '../assets/LALISA.mp4';
+
+const Music = () => {
+  return (
+    <div className='music-pink'>
+
+        <div className='JiSolo' >
+             <h3> <u>LIAR (CAMILA CABELLO COVER) // JISOO SOLO</u></h3>
+             <span className='bar' ></span> 
+             <center><video height={100}  autoPlay loop muted src={Jisoo} className='video' alt=''  /> </center>
+        <div>
+              <a href='https://www.youtube.com/watch?v=ayIANe5Qmxs' className='btn'>YouTube</a>
+        </div>
+        </div>
+                
+        <div className='JenSolo' >
+              <h3> <u>SOLO // JENNIE SOLO </u></h3>
+              <span className='bar' ></span>
+              <video height={100}  autoPlay loop muted src={Jennie} className='video' alt='' />
+        <div>
+              <a href='https://www.youtube.com/watch?v=b73BI9eUkjM' className='btn'>YouTube</a>
+        </div>
+        </div>
+
+        <div className='RoseSolo'>
+              <h3> <u>GONE // ROSÉ SOLO </u></h3>
+              <span className='bar' ></span>
+              <video height={100}  autoPlay loop muted src={Rose} className='video' alt='' />
+        <div>
+              <a href='https://www.youtube.com/watch?v=K9_VFxzCuQ0' className='btn'>YouTube</a>
+        </div>
+        </div>
+
+        <div className='LisaSolo'>
+              <h3> <u>LALISA // LISA SOLO </u></h3>
+              <span className='bar' ></span>
+              <video height={100}  autoPlay loop muted src={Lisa} className='video' alt='' />
+        <div>
+              <a href='https://www.youtube.com/watch?v=awkkyBH2zEo' className='btn'>YouTube</a>
+        </div>
+        </div>
+
+        <div className='groupMusic'>
+             <h3> <u>SHUT DOWN // BLACKPINK </u></h3>
+             <span className='bar' ></span>
+             <video height={100} autoPlay loop muted src={ShutDown} className='video' alt='' /> 
+        <div> 
+             <a href='https://www.youtube.com/watch?v=POe9SOEKotk' className='btn'>YouTube</a>
+        </div>
+        </div>
+    </div>
+  );
+}
+
+export default Music;
+
+
+
+/* OLD CODE
+
+
+
 import React from 'react';
 import './MusicStyles.css';
 import ShutDown from '../assets/shutdown.mp4';
