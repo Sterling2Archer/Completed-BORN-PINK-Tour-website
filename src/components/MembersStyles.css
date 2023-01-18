@@ -1,16 +1,18 @@
+/* NEW CODE /*
 /* JISOO KIM MEMBER SECTION */
 .members {
     width: 100%;
-    padding: 6rem 1rem;
+    padding: 3rem 1rem;
     background-color: #000;
 }
 
 .members-container {
-    max-width: 1500px;
+    max-width: 1400px;
+    align-items: center;
     margin: auto;
     color: #eee;
     display: grid;
-    grid-gap: 50px;
+    grid-gap: 40px;
     grid-template-columns: repeat(2, 4fr);
 }
 
@@ -190,3 +192,190 @@
     margin: 1rem 0rem auto;
 }
 /* END OF LALISA MANOBAN MEMBER SECTION */
+
+/* OLD CODE
+.members {
+    width: 100%;
+    padding: 6rem 1rem;
+    background-color: #000;
+}
+
+.members-container {
+    max-width: 1500px;
+    margin: auto;
+    color: #eee;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(2, 4fr);
+}
+
+.members-container .card {
+    border: 3px solid #eee;
+    color: #eee;
+}
+
+.card {
+    text-align: center;
+    padding: 2rem;
+}
+
+.card:hover {
+    background-color: #141414;
+    background: url('../assets/JISOOIcon.jpg') no-repeat center center/cover;
+}
+
+.card h3 {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.card .bar {
+    border-bottom: 1px solid #eee;
+    width: 50%;
+    margin: 1.5rem auto;
+    display: block;
+}
+
+.card .YG {
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.members p {
+    color: #eee;
+    padding: 2rem 0rem;
+    font-size: 2rem;
+}
+
+.card .btn {
+    display: block;
+    width: 100%;
+    margin: 9rem 0rem auto;
+}
+
+@media screen and (max-width: 980px) {
+    .members-container {
+        max-width: 100%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
+
+.members-container .card2 {
+    border: 2px solid #eee;
+    color: #eee;
+}
+
+.card2 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.card2:hover {
+    background-color: #141414;
+    background: url('../assets/JENNIEIcon.png') no-repeat center center/cover;
+}
+
+.card2 h3 {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.card2 .bar {
+    border-bottom: 1px solid #eee;
+    width: 50%;
+    margin: 1.5rem auto;
+    display: block;
+}
+
+.card2 .YG {
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.card2 .btn {
+    display: block;
+    width: 100%;
+    margin: 4rem 0rem auto;
+}
+
+.members-container .card3 {
+    border: 2px solid #eee;
+    color: #eee;
+}
+
+.card3 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.card3:hover {
+    background-color: #141414;
+    background: url('../assets/CHAEYOUNGIcon.jpg') no-repeat center center/cover;
+}
+
+.card3 h3 {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.card3 .bar {
+    border-bottom: 1px solid #eee;
+    width: 50%;
+    margin: 1rem auto;
+    display: block;
+}
+
+.card3 .YG {
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.card3 .btn {
+    display: block;
+    width: 100%;
+    margin: 7rem 0rem auto;
+}
+
+.members-container .card4 {
+    border: 2px solid #eee;
+    color: #eee;
+}
+
+.card4 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.card4:hover {
+    background-color: #141414;
+    background: url('../assets/LALISAIcon.jpg') no-repeat center center/cover;
+}
+
+.card4 h3 {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.card4 .bar {
+    border-bottom: 1px solid #eee;
+    width: 50%;
+    margin: 1rem auto;
+    display: block;
+}
+
+.card4 .YG {
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.card4 .btn {
+    display: block;
+    width: 100%;
+    margin: 1rem 0rem auto;
+}
+/* 
