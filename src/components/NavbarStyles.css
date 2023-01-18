@@ -8,6 +8,7 @@
     align-items: center;
     padding: 1rem;
     z-index: 10;
+    cursor: pointer;
 }
 
 .header-bg {
@@ -17,6 +18,7 @@
 
 .nav-menu {
     display: flex;
+    cursor: pointer;
 }
 
 .nav-menu li {
@@ -30,6 +32,7 @@
 
 .hamburger {
     display: none;
+    cursor: pointer;
 }
 
 @media screen and (max-width:1240px) {
