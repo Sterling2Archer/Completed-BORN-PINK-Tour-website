@@ -1,3 +1,134 @@
+/* NEW CODE
+/* MAIN VIDEO SECTION STYLING */
+.music-pink {
+    width: 100%;
+    background-color: #000;
+    display: flex;
+}
+
+.music-pink h3 {
+    font-size: 0.5rem; 
+    height: 3rem;
+    padding: 2rem;
+    margin: center;
+}
+
+
+.music-pink .btn {
+    display: block;
+    margin: center;
+    font-size: small;
+    align-items: center;
+    background-color: #ffa3dc;
+    border-color: #ffa3dc;
+    width: 99%;
+}
+
+
+
+.video {
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+
+/*INDIVIDUAL VIDEO STYLING SECTIONS WITH JISOO'S SOLO VIDEO SECTION FIRST */
+
+/* JISOO SOLO VIDEO SECTION */
+.JiSolo {
+    margin: auto;
+    color: #eee;
+}
+
+
+@media screen and (max-width: 980px) {
+    .JiSolo {
+        max-width: 100%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
+/* END OF JISOO SOLO VIDEO SECTION */
+
+/* JENNIE SOLO VIDEO SECTION */
+.JenSolo {
+    margin: auto;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+@media screen and (max-width: 980px) {
+    .JenSolo {
+        max-width: 100%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
+/* END OF JENNIE SOLO VIDEO SECTION */
+/* BLACKPINK GROUP VIDEO SECTION */
+.groupMusic {
+    margin: auto;
+    color: #eee;
+}
+
+
+@media screen and (max-width: 980px) {
+    .groupMusic {
+        max-width: 100%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
+/* END OF BLACKPINK GROUP VIDEO SECTION */
+
+/* ROSE SOLO VIDEO SECTION */
+.RoseSolo {
+    margin: auto;
+    color: #eee;
+}
+
+
+
+@media screen and (max-width: 980px) {
+    .RoseSolo {
+        max-width: 100%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
+/* END OF ROSE SOLO VIDEO SECTION */
+
+/* LISA SOLO VIDEO SECTION */
+.LisaSolo {
+    margin: auto;
+    color: #eee;
+}
+
+
+@media screen and (max-width: 980px) {
+    .LisaSolo {
+        max-width: 100%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
+/* END OF LISA SOLO VIDEO SECTION */
+
+
+/*
+
+
+
+
+
+
+
+/*
+OLD CODE 
+/*
+
 /* MAIN VIDEO SECTION STYLING */
 .music-pink {
     width: 100%;
