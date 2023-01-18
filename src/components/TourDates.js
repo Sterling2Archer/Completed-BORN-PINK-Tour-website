@@ -1,13 +1,15 @@
 import React from 'react';
 import './TourDatesStyles.css';
-import Dates1 from '../assets/Blackpink-Tour-2022.jpg.webp';
+import Dates2 from '../assets/Blackpink-Asia.jpeg';
 
 const TourDates = () => {
   return (
-    <div className='tourdates1'>
-            <div className='dates'>
-                 <center><img src={Dates1} className='img' alt='' /> </center>
-            </div>
+    <div className='worldtour'>
+      <div className='img-container'>
+              <div className='image-stack top'>
+                   <img src={Dates2} className='img' alt='' /> 
+              </div>
+      </div>
     </div>
   )
 }
