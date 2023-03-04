@@ -1,18 +1,17 @@
 /* JISOO KIM MEMBER SECTION */
 .members {
-    width: 100%;
+    width: 10%;
     padding: 3rem 1rem;
     background-color: #000;
     cursor: pointer;
 }
 
 .members-container {
-    max-width: 1400px;
-    align-items: center;
+    max-width: 10px;
     margin: auto;
     color: #eee;
     display: grid;
-    grid-gap: 40px;
+    grid-gap: 5px;
     grid-template-columns: repeat(2, 4fr);
     cursor: pointer;
 }
