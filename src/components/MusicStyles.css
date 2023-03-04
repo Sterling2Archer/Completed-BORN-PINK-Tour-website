@@ -1,9 +1,12 @@
 /* MAIN VIDEO SECTION STYLING */
 .music-pink {
-    width: 100%;
+    width: 80%;
     background-color: #000;
-    display: flex;
     cursor: pointer;
+    margin: auto;
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: repeat(1, 5fr);
 }
 
 .music-pink h3 {
@@ -16,12 +19,12 @@
 
 .music-pink .btn {
     display: block;
-    margin: center;
+    margin: auto;
     font-size: small;
     align-items: center;
     background-color: #ffa3dc;
     border-color: #ffa3dc;
-    width: 99%;
+    width: 80%;
     color: white;
     text-align: center;
     cursor: pointer;
